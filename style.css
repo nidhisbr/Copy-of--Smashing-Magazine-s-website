@@ -1,0 +1,148 @@
+body{
+	margin:0;
+	 font-family: 'Baloo Paaji', cursive;
+	 background-color:#d33a2c;
+}
+
+
+
+#top{
+	color: #fff;
+    text-shadow:none;
+    background-color:#d33a2c;
+	width:1440px;
+	height:165px;
+}
+.nav{
+display:flex;
+
+}
+.navbar{
+ width: 70%;
+ height:40px;
+ margin:5px;
+	
+}
+.navbar h2{
+text-decoration: none;
+  color: #fff;  
+   font-family: 'Baloo Paaji', cursive;
+}
+.navbar p{font-size: calc(.8em + .2vw);
+  font-family: 'IM Fell Double Pica', serif;
+  white-space: nowrap;
+  margin: .2em;
+  }
+.navbar ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  text-align: center;
+  flex: 10%;
+  padding: 1em;
+}
+
+.featured-articles-heading {
+  position: absolute;
+  top: 4.5em;
+  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
+  text-align: center;
+  width: 100%;
+  color: #000;
+  box-sizing: border-box;
+  padding: .3em;
+}
+
+.featured-articles-heading span {
+  background-color: #fff;
+  padding: .3em;
+}
+
+.featured-articles article { 
+  text-shadow: 1px 1px 1px #555;
+  flex: 50%;
+  box-sizing: border-box;
+  padding: 10em 4vw 7em;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;  
+  padding: 10px;
+}
+.grid-item:nth-of-type(1),
+.grid-item:nth-of-type(4) {
+  background-color: #c7372a;  
+  padding: 20px;
+ 
+ 
+}
+.grid-item:nth-of-type(2),
+.grid-item:nth-of-type(3){
+background-color: #b13125;  
+  padding: 20px;
+
+}
+.person{
+	width:50px;
+	height:50px;
+	background-color:#fff;
+	border-radius:2px;
+	transform-origin:bottom left;
+	transition: transform .2s ease-in-out;
+	transform :rotate(-10deg);
+}	
+
+.person:hover{
+transform: rotate(0deg);	
+}
+.grid-item:nth-child(-n+2){
+margin-top:140px;	
+}
+.article{
+padding:50px 20px;	
+	
+}
+.nowrap{
+display:flex;
+}
+.nowrap h2,i{
+	color:#fff;
+	font-size:20px;
+	margin:0 30px;
+	font-size: calc(18px + .25vw);
+    font-feature-settings: "onum" 1;
+    letter-spacing: -.25px;
+}
+.on{display:flex;}
+.on h2{
+	color:#fff;
+	font-size:40px;
+}
+.list ul{
+	list-style-type : none;
+	margin:4px;
+	padding:0;
+}
+.list li{
+	 display: inline;
+}
+.containers{
+background-color:#fff;	
+display:grid;
+grid-template-columns:auto auto auto auto;
+
+}
+.grid-lists{
+display:flex;
+flex-direction: column;	
+}
+section{
+width:500px;
+height:400px;	
+}
